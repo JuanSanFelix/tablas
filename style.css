@@ -1,1 +1,64 @@
 @charset "UTF-8";
+@font-face {
+    font-family: Hanalei;
+    src: url(Hanalei-Regular.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    font-family: 'Hanalei', cursive;
+    text-align: center;
+    font-size: 5vw;
+}
+caption.caption1 {
+    background-color: yellow;
+    caption-side: top;
+    font-size: 3vw;
+}
+caption.caption2 {
+    background-color: yellow;
+    caption-side: bottom;
+    font-size: 3vw;
+}
+table.table1 {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    table-layout: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: black 0.3vw solid;
+    width: 50vw;
+}
+table.table2 {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    table-layout: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: black 0.3vw solid;
+    width: 50vw;
+}
+th {
+    border-collapse: collapse;
+    border: black 0.3vw solid;
+}
+td {
+    border:black 0.3vw solid;
+    border-collapse: collapse;
+}
+hr {
+    padding: 2vw;
+}
+footer {
+    margin-top: 3vw;
+    display: block;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    background-color: yellow;
+    border: 0.5vw solid;
+    border-color: red;
+}
